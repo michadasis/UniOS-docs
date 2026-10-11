@@ -20,19 +20,59 @@ pip install -r requirements.txt
 
 ## Running it
 
+Set up a virtual environment and install the package:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -e .
 ```
-python src/unidesk/main.py
+
+Then run:
+
+```bash
+unidesk
 ```
 
 ## Project structure
 
 ```
 src/unidesk/
-    main.py       entry point
-    home.py       main window and all navigation logic
-    pages.py      text content for each informational page
-    credits.py    list of contributors
-    links.py      external links shown in the Links page
+    main.py                   entry point
+    helpers/
+        text_data.py          loads the text below from the bundled JSON
+        academic_config.py    reads/writes the shared academic profile
+        autostart.py          manages launching UniDesk at login
+    ui/
+        main_window.py        main window and all navigation logic
+        widgets.py            shared widget helpers
+        pages/                builders for each page (text, links, credits, academic config)
+    styles/
+        loader.py             loads the bundled .qss stylesheets and assets
+        check.svg             checkmark icon for checkboxes
+        widgets/
+            controls.qss      buttons, checkbox and combo box roles
+            labels.qss        label text roles
+            layout.qss        backgrounds for windows, bars, cards and dividers
+    assets/text_data/
+        pages.json            body text for each informational page
+        faq.json              FAQ entries as question/answer pairs
+        credits.json          list of contributors
+        links.json            external links shown in the Links page
+        navigation.json       nav button labels and footer links
+        ui_strings.json       buttons, titles and other interface text
+        academic_institutions.json  known universities and their departments
 ```
 
-To update any page content just open `pages.py` and edit the body text for that page. To add a new contributor open `credits.py`.
+All user-facing text lives in `assets/text_data/`. To update page content edit `pages.json`; to add a contributor edit `credits.json`. No Python changes are needed to change copy.
+
+## Academic profile
+
+The footer on the home screen has a **Configure UniOS** button. It opens a page where you pick your university and department from dropdowns, which is saved to `~/.unios/academicConfig.json`. Other UniOS apps (such as UniBackpack) read this file, so the available choices live in `assets/text_data/academic_institutions.json` and must stay in sync with those apps. If UniBackpack adds new universities or departments, mirror them in `assets/text_data/academic_institutions.json`.
+
+## Contributing
+
+Contributions are welcome. If you want to improve the UI, fix a typo, or add a new page, open a pull request on GitHub. If you find a bug, open an issue. There is no contribution too small.
+
+Built by Open Source UoM 2026
+
