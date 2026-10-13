@@ -127,7 +127,7 @@ Replace `resources/logos/unios.png`. The first file named `unios.png`, or with `
 
 ## Contributors
 
-Maintained by Apostolos Chalis <achalis@csd.auth.gr>, with contributions from:
+Maintained by [Open Source UoM](https://github.com/open-source-uom), with contributions from:
 
 <a href="https://github.com/open-source-uom/unios-desktop-settings/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=open-source-uom/unios-desktop-settings" />
