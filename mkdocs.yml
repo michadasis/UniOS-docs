@@ -9,6 +9,7 @@ nav:
  - UniBackpack: unibackpack.md
  - UniDesk: unidesk.md
  - UniNews: uninews.md
+ - unios-desktop-settings: unios-desktop-settings.md
 
 theme:
   name: material
