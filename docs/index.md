@@ -16,15 +16,12 @@ As of now we have developed the following projects:
 * <a href="https://github.com/open-source-uom/UniBackpack" target="_blank">UniBackpack</a> – Our downloader for the software used by the departments of the Greek universities to teach each subject.
 * <a href="https://github.com/open-source-uom/UniDesk" target="_blank">UniDesk</a> – Our welcomer and helper app that runs on startup to greet the user and make them engage with our community.
 * <a href="https://github.com/open-source-uom/UniMate" target="_blank">UniMate</a> – Our web app that serves as a bulk downloader for general use Linux apps.
-<<<<<<< Updated upstream
 * <a href="https://github.com/open-source-uom/UniNews" target="_blank">UniNews</a> – Our app that acts as a news aggregator for university news.
 * <a href="https://github.com/open-source-uom/unios-update" target="_blank">UniOS Update</a> – An interactive update notifier & applier for UniOS.
-=======
 * <a href="https://github.com/open-source-uom/UniNews" target="_blank">UniNews</a> – Our app that acts as a news aggregator for university news. 
 * <a href="https://github.com/open-source-uom/unios-update" target="_blank">unios-update</a> – An interactive update notifier & applier for UniOS that assists you with important pre / post update tasks (including a systray applet and extensive CLI).
 * <a href="https://github.com/open-source-uom/unios-calamares" target="_blank">unios-calamares</a> – Our system installer
 * <a href="https://github.com/open-source-uom/unios-desktop-settings" target="_blank">unios-desktop-settingss</a> – Our scripts to make KDE feel like UniOS
->>>>>>> Stashed changes
 * <a href="https://unios-project.eu" target="_blank">Our Webpage</a> – This is our landing page that does a less technical introduction for our ecosystem.  
 * <a href="https://docs.unios-project.eu" target="_blank">The webpage that you are currently on</a> – This is our documentation page that should be considered part of the workflow if you want to write for us, which we dearly suggest.
 
