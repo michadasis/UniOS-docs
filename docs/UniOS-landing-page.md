@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../img/favicon.ico" alt="UniOS logo" width="200">
+</p>
+
 # UniOS Landing Page
 
 ## Description

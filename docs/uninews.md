@@ -1,4 +1,8 @@
-# UniNews Documentation
+<p align="center">
+  <img src="../img/uni-news.png" alt="UniNews logo" width="200">
+</p>
+
+# UniNews 
 
 ## 1. Introduction
 

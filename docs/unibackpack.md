@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../img/unibackpack.png" alt="UniBackpack logo" width="200">
+  <img src="../img/uni-backpack.png" alt="UniBackpack logo" width="200">
 </p>
 
 # UniBackpack

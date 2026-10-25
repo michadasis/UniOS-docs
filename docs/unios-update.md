@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="../img/unios-update.png" alt="UniOS logo" width="200">
+</p>
 # UniOS-Update
 
 ## Table of contents
