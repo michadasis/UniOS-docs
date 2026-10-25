@@ -11,6 +11,8 @@ nav:
  - UniNews: uninews.md
  - UniOS-landind-page: UniOS-landing-page.md
  - unios-desktop-settings: unios-desktop-settings.md
+ - unios-update: unios-update.md
+ - unios-repo: unios-repo.md
 
 theme:
   name: material
