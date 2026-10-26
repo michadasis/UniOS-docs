@@ -21,7 +21,7 @@ As of now we have developed the following projects:
 * <a href="https://github.com/open-source-uom/UniNews" target="_blank">UniNews</a> – Our app that acts as a news aggregator for university news. 
 * <a href="https://github.com/open-source-uom/unios-update" target="_blank">unios-update</a> – An interactive update notifier & applier for UniOS that assists you with important pre / post update tasks (including a systray applet and extensive CLI).
 * <a href="https://github.com/open-source-uom/unios-calamares" target="_blank">unios-calamares</a> – Our system installer
-* <a href="https://github.com/open-source-uom/unios-desktop-settings" target="_blank">unios-desktop-settingss</a> – Our scripts to make KDE feel like UniOS
+* <a href="https://github.com/open-source-uom/unios-desktop-settings" target="_blank">unios-desktop-settings</a> – Our scripts to make KDE feel like UniOS
 * <a href="https://unios-project.eu" target="_blank">Our Webpage</a> – This is our landing page that does a less technical introduction for our ecosystem.  
 * <a href="https://docs.unios-project.eu" target="_blank">The webpage that you are currently on</a> – This is our documentation page that should be considered part of the workflow if you want to write for us, which we dearly suggest.
 
@@ -42,4 +42,4 @@ unios-repo unios-update-debug 1.0.0-1
 ```
 
 ### Our current repo: 
-Our current repository that runs of github is [unios-repo](https://github.com/open-source-uom/UniOS-docs) and you can add it in your current Linux installation following the guide in our [unios-repo](unios-repo.md) page. 
+Our current repository that runs on GitHub is [unios-repo](https://github.com/open-source-uom/UniOS-docs) and you can add it in your current Linux installation following the guide in our [unios-repo](unios-repo.md) page. 
