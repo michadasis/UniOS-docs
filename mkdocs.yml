@@ -3,6 +3,7 @@ site_url: https://docs.unios-project.eu
 
 nav:
  - Home: index.md
+ - Installing UniOS: install-guide.md
  - General Dev Workflow: generalworkflow.md
  - Adding docs: addingdocs.md
  - Our build server: build.unios-project.eu.md
