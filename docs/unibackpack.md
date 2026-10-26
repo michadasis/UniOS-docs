@@ -6,6 +6,14 @@
 
 UniBackpack is a lightweight C++ Qt application designed to automate the installation of essential software and development tools for university students. By selecting the target University and Department, the application automatically detects the underlying Linux distribution's package manager (`apt` or `pacman`) and installs the required toolchain.
 
+## Installing on UniOS
+
+UniBackpack is available in `unios-repo` as the `unibackpack` package:
+
+```bash
+sudo pacman -S unibackpack
+```
+
 ## Prerequisites
 
 Before building UniBackpack, ensure that the following dependencies are installed on your system:
